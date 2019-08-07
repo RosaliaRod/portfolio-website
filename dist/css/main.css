@@ -28,6 +28,22 @@ a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
   background-color: #ffbc00; }
 
+.bg-main {
+  background: #ffbc00;
+  color: set-text-colo(#ffbc00); }
+
+.bg-dark {
+  background: #333;
+  color: set-text-colo(#333); }
+
+.bg-light {
+  background: #f4f4f4;
+  color: set-text-colo(#f4f4f4); }
+
+.bg-medium {
+  background: #ccc;
+  color: set-text-colo(#ccc); }
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem; }
